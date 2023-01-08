@@ -1,18 +1,18 @@
 .header{
-  box-sizing: border-box;
-  width: 100%;
-  margin: 28px 48px auto;
-  display: flex;
-  justify-content: space-between;
+outline: 1px solid red;
+display: flex;
+justify-content: space-between;
+margin: 28px 48px 0 48px;
+}
+
+@media screen and (max-width: 1024px){
+  .header{
+    margin: 28px 24px 0;
+  }
 }
 
 @media screen and (max-width: 768px){
   .header{
-    margin: 28px 24px auto;
-  }
-}
-@media screen and (max-width: 320px){
-  .header{
-    margin: 16px 16px auto;
+    margin: 16px 16px 0;
   }
 }
