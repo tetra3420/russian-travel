@@ -5,7 +5,6 @@
   line-height: 100px;
   text-align: center;
   max-width: 720px;
-  outline: 1px solid  brown ;
 }
 
 @media screen and (max-width: 767px){

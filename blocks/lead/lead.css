@@ -1,7 +1,6 @@
 .lead{
   display: flex;
   flex-direction: column;
-  outline: 1px solid  green ;
   align-items: center;
   margin: 56px 148px 0px 148px;
 }

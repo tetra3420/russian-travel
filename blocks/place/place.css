@@ -21,6 +21,9 @@
     gap: 48px 28px;
     max-width: calc(720px + (100vw - 768px) / (1024 - 768) * (928 - 720));
   }
+  .place:first-of-type{
+    letter-spacing: 1px;
+  }
 }
 
 @media screen and (max-width: 767px){

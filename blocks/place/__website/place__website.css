@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: flex-end;
   row-gap: 12px;
+  letter-spacing: normal;
 }
 @media screen and (max-width: 767px){
   .place__website{
