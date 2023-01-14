@@ -12,8 +12,8 @@
     <header class="header">
       <img class="header__logo" src="./images/header-logo.svg" alt="Надпись Россиия и ее приблизительные очертания на карте мира">
       <ul class="header__links">
-        <li><a class="header__lang-link" href="#">Ru</a></li>
-        <li><a class="header__lang-link header__lang-link_no-active" href="#">En</a></li>
+        <li><a class="header__lang-link link" href="#">Ru</a></li>
+        <li><a class="header__lang-link header__lang-link_no-active link" href="#">En</a></li>
       </ul>
     </header>
     <main>
@@ -55,7 +55,7 @@
           <h2 class="place__title">Куршская коса</h2>
           <div class="place__website">
             <h3 class="place__url-heading">URL</h3>
-            <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
+            <a class="place__link link" href="http://park-kosa.ru" target="_blank" rel="noopener noreferrer">park-kosa.ru</a>
           </div>
           <img class="place__image" src="./images/place-kosa.jpg" alt="фото Куршского залива">
           <div class="place__prh-text">
@@ -69,7 +69,7 @@
           <h2 class="place__title">Кольский</h2>
           <div class="place__website">
             <h3 class="place__url-heading">URL</h3>
-            <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank">National Geographic</a>
+            <a class="place__link link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank" rel="noopener noreferrer">National Geographic</a>
           </div>
           <img class="place__image" src="./images/place-kolsky.jpg" alt="фото пейзажа Хибин">
           <div class="place__prh-text">
@@ -81,7 +81,7 @@
           <h2 class="place__title">Алтай</h2>
           <div class="place__website">
             <h3 class="place__url-heading">URL</h3>
-            <a class="place__link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank">YouTube</a>
+            <a class="place__link link" href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank" rel="noopener noreferrer">YouTube</a>
           </div>
           <img class="place__image" src="./images/place-altai.jpg" alt="фото ноутбука на фоне леса">
           <div class="place__prh-text">
@@ -93,7 +93,7 @@
           <h2 class="place__title">Зимний Байкал</h2>
           <div class="place__website">
             <h3 class="place__url-heading">URL</h3>
-            <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
+            <a class="place__link link" href="https://vk.com/baikalmile" target="_blank" rel="noopener noreferrer">https://vk.com/baikalmile</a>
           </div>
           <img class="place__image" src="./images/place-winter-baikal.jpg" alt="фото трещин внутри льда">
           <div class="place__prh-text">
@@ -107,7 +107,7 @@
           <h2 class="place__title">Карелия</h2>
           <div class="place__website">
             <h3 class="place__url-heading">URL</h3>
-            <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
+            <a class="place__link link" href="http://vodlozero.ru" target="_blank" rel="noopener noreferrer">http://vodlozero.ru/</a>
           </div>
           <img class="place__image" src="./images/place-karelia.jpg" alt="фото пейзажа Карелии">
           <div class="place__prh-text">
@@ -116,13 +116,32 @@
           </article>
       </section>
       <section class="cover">
-        <a class="cover__background"  href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank">
+        <a class="cover__background"  href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" rel="noopener noreferrer">
           <h2 class="cover__title">До Байкала «на&nbsp;собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
         </a>
       </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <ul class="footer__links">
+        <li>
+          <a class="footer__link link" href="https://yandex.ru/maps" target="_blank" rel="noopener noreferrer">Карты</a>
+        </li>
+        <li>
+          <a class="footer__link link" href="https://yandex.ru/pogoda" target="_blank" rel="noopener noreferrer">Погода</a>
+        </li>
+        <li>
+          <a class="footer__link link" href="https://rasp.yandex.ru" target="_blank" rel="noopener noreferrer">Расписание</a>
+        </li>
+        <li>
+          <a class="footer__link link" href="https://calendar.yandex.ru" target="_blank" rel="noopener noreferrer">Календарь</a>
+        </li>
+        <li>
+          <a class="footer__link link" href="https://travel.yandex.ru" target="_blank" rel="noopener noreferrer">Путешествия</a>
+        </li>
+      </ul>
+      <p class="footer__copyright">&COPY; <time datetime="2023" >2023. </time>Коншин Иван</p>
+    </footer>
   </div>
 </body>
 </html>

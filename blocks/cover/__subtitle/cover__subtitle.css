@@ -9,3 +9,10 @@
   z-index: 3;
 }
 
+@media screen and (max-width: 767px){
+  .cover__subtitle{
+    font-size: calc(14px + (100vw - 320px) / (767 - 320) * (18 - 14));
+    line-height: calc(16px + (100vw - 320px) / (767 - 320) * (22 - 16));
+    margin-top: calc(16px + (100vw - 320px) / (767 - 320) * (32 - 16));
+  }
+}

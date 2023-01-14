@@ -1,0 +1,23 @@
+.footer{
+  display: flex;
+  justify-content: space-between;
+  margin: 92px 48px 24px 48px;
+  row-gap: 48px;
+}
+
+@media screen and (max-width: 1024px){
+  .footer{
+    margin-top: calc(88px + (100vw - 768px) / (1024 - 768) * (92 - 88));
+    margin-left: calc(24px + (100vw - 768px) / (1024 - 768) * (48 - 24));
+    margin-right: calc(24px + (100vw - 768px) / (1024 - 768) * (48 - 24));
+  }
+}
+
+@media screen and (max-width: 611px){
+  .footer{
+    flex-direction: column;
+    margin: 64px auto 24px 16px;
+  }
+
+
+}
