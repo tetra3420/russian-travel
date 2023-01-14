@@ -1,11 +1,10 @@
 .places{
   margin: 92px auto 92px auto;
-  padding:0;
+  padding: 0;
   display: grid;
   grid-template-columns: minmax(320px, 984px);
   row-gap: 80px;
   justify-content: center;
-
 }
 
 
