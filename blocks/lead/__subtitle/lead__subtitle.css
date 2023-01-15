@@ -15,8 +15,10 @@
 
 @media screen and (max-width: 767px){
   .lead__subtitle{
-    font-size: calc(16px + (14 + 14 * 0.7) * ((100vw - 320px) / 1280));
-    line-height: calc(20px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    font-size: calc(16px + (100vw - 320px) / (767 - 319) * (30 - 16));
+    line-height: calc(20px + (100vw - 320px) / (767 - 319) * (36 - 20));
     margin: 16px 16px 40px 16px;
+    max-width: calc(288px + (100vw - 320px) / (767 - 319) * (640 - 288));
   }
 }
+

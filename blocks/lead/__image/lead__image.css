@@ -1,5 +1,22 @@
 .lead__image{
-  max-height: 962px;
-  width: 100%;
+  max-height: 615px;
   object-fit: cover;
+}
+
+@media screen and (max-width: 1279px){
+  .lead__image{
+    max-height: calc(580px + (100vw - 1024px) / (1279 - 1023) * (615 - 580));
+  }
+}
+
+@media screen and (max-width: 1023px){
+  .lead__image{
+    max-height: calc(480px + (100vw - 768px) / (1023 - 767) * (580 - 480));
+  }
+}
+
+@media screen and (max-width: 767px){
+  .lead__image{
+    max-height: calc(200px + (100vw - 320px) / (768 - 320) * (480 - 200));
+  }
 }
