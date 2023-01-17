@@ -16,8 +16,8 @@
 @media screen and (max-width: 611px){
   .footer{
     flex-direction: column;
-    margin: 64px auto 24px 16px;
+    margin: 64px 0 24px 16px;
+    max-width: 80%;
   }
-
-
 }
+

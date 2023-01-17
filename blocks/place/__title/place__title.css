@@ -19,6 +19,7 @@
     font-size: calc(32px + (100vw - 320px) / (767 - 319) * (42 - 32));
     line-height: calc(35px + (100vw - 320px) /(767 - 319) * (46 - 35));
     margin-left: 5%;
+    max-width: 85%;
   }
 }
 

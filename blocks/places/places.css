@@ -19,5 +19,6 @@
   .places{
     margin: 64px auto 66px auto;
     row-gap: 50px;
+    grid-template-columns: minmax(min-content, max-content);
   }
 }
