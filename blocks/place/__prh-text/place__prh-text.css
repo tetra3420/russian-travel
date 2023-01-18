@@ -3,3 +3,10 @@
   flex-direction: column;
   row-gap: 26px;
 }
+
+@media screen and (max-width: 342px){
+  .place__prh-text{
+    max-width: calc(320px + (100vw - 320px) / (342 - 320) * (342 - 320));
+  }
+}
+
