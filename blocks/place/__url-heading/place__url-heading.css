@@ -5,4 +5,6 @@
   line-height: 20.4px;
   letter-spacing: 2px;
   font-weight: 400;
+  max-width: fit-content;
+  text-transform: uppercase;
 }

@@ -1,5 +1,6 @@
 .cover__background{
   background-image: url("../../../images/cover-trains.jpg");
+  background-size: cover;
   background-position: center;
   max-width: 1184px;
   min-height: 740px;
@@ -28,7 +29,6 @@
 }
 
 .cover__background:hover::after{
-  background-color: #2A2C2F;
   opacity: .8;
 }
 
